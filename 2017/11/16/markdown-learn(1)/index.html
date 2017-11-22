@@ -1,0 +1,505 @@
+
+ <!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  
+    <title>markdown学习一 | 幻境博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    
+    <meta name="author" content="yangyang lei">
+    
+
+    
+    <meta name="description" content="前言　　这几天学习markdown，看了下它的基本语法，感觉不是很多，但是，等到自己动手写的时候，感觉不怎么顺利。所以再下面记录下学习中遇到的问题。注：本文仅供个人记录使用，如有不对之处，请谅解。 一. 首行缩进　　按照往常我们写作的习惯都喜欢首行缩进，这样看着有条理一些。所以我看了下markdown的语法，主要是看别人写的博客，没有看官方的文档，发现并没有说明怎么首行缩进的，于是我又查了查，发现">
+<meta name="keywords" content="markdown">
+<meta property="og:type" content="article">
+<meta property="og:title" content="markdown学习一">
+<meta property="og:url" content="http://yangyl.top/2017/11/16/markdown-learn(1)/index.html">
+<meta property="og:site_name" content="幻境博客">
+<meta property="og:description" content="前言　　这几天学习markdown，看了下它的基本语法，感觉不是很多，但是，等到自己动手写的时候，感觉不怎么顺利。所以再下面记录下学习中遇到的问题。注：本文仅供个人记录使用，如有不对之处，请谅解。 一. 首行缩进　　按照往常我们写作的习惯都喜欢首行缩进，这样看着有条理一些。所以我看了下markdown的语法，主要是看别人写的博客，没有看官方的文档，发现并没有说明怎么首行缩进的，于是我又查了查，发现">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2017-11-20T01:28:54.938Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="markdown学习一">
+<meta name="twitter:description" content="前言　　这几天学习markdown，看了下它的基本语法，感觉不是很多，但是，等到自己动手写的时候，感觉不怎么顺利。所以再下面记录下学习中遇到的问题。注：本文仅供个人记录使用，如有不对之处，请谅解。 一. 首行缩进　　按照往常我们写作的习惯都喜欢首行缩进，这样看着有条理一些。所以我看了下markdown的语法，主要是看别人写的博客，没有看官方的文档，发现并没有说明怎么首行缩进的，于是我又查了查，发现">
+
+    
+    <link rel="alternative" href="/atom.xml" title="幻境博客" type="application/atom+xml">
+    
+    
+    <link rel="icon" href="/img/favicon.ico">
+    
+    
+    <link rel="apple-touch-icon" href="/img/jacman.jpg">
+    <link rel="apple-touch-icon-precomposed" href="/img/jacman.jpg">
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+  <body>
+    <header>
+      
+<div>
+		
+			<div id="imglogo">
+				<a href="/"><img src="/img/author.jpg" alt="幻境博客" title="幻境博客"/></a>
+			</div>
+			
+			<div id="textlogo">
+				<h1 class="site-name"><a href="/" title="幻境博客">幻境博客</a></h1>
+				<h2 class="blog-motto">java学习</h2>
+			</div>
+			<div class="navbar"><a class="navbutton navmobile" href="#" title="菜单">
+			</a></div>
+			<nav class="animated">
+				<ul>
+					<ul>
+					 
+						<li><a href="/">首页</a></li>
+					
+						<li><a href="/archives">归档</a></li>
+					
+						<li><a href="/tags">标签</a></li>
+					
+						<li><a href="/categories">分类</a></li>
+					
+						<li><a href="/about">关于</a></li>
+					
+					<li>
+ 					
+						<form class="search" action="http://search.yangyl.top/cse/search" target="_blank">
+							<label>Search</label>
+						<input name="s" type="hidden" value= 9437215505882872906 ><input type="text" name="q" size="30" placeholder="搜索"><br>
+						</form>
+					
+					</li>
+				</ul>
+			</nav>			
+</div>
+    </header>
+    <div id="container">
+      <div id="main" class="post" itemscope itemprop="blogPost">
+  
+	<article itemprop="articleBody"> 
+		<header class="article-info clearfix">
+  <h1 itemprop="name">
+    
+      <a href="/2017/11/16/markdown-learn(1)/" title="markdown学习一" itemprop="url">markdown学习一</a>
+  </h1>
+  <p class="article-author">By
+       
+		<a href="/about" title="yangyang lei" target="_blank" itemprop="author">yangyang lei</a>
+		
+  <p class="article-time">
+    <time datetime="2017-11-16T01:25:20.000Z" itemprop="datePublished"> 发表于 2017-11-16</time>
+    
+  </p>
+</header>
+	<div class="article-content">
+		
+		<h3 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h3><p>　　这几天学习markdown，看了下它的基本语法，感觉不是很多，但是，等到自己动手写的时候，感觉不怎么顺利。所以再下面记录下学习中遇到的问题。注：本文仅供个人记录使用，如有不对之处，请谅解。</p>
+<h3 id="一-首行缩进"><a href="#一-首行缩进" class="headerlink" title="一. 首行缩进"></a>一. 首行缩进</h3><p>　　按照往常我们写作的习惯都喜欢首行缩进，这样看着有条理一些。所以我看了下markdown的语法，主要是看别人写的博客，没有看官方的文档，发现并没有说明怎么首行缩进的，于是我又查了查，发现可以基于html中的 <code>&amp;nbsp;</code>,因为markdown支持html解析。但是中文的效果不怎么好,然后有试了下 <code>&amp;ensp;</code>,效果强了点，是半角的空格，接着又试了下 <code>&amp;emsp;</code>，是全角的空格,感觉很好两个就是中文的两个空格。最后又试了下把输入法切换成全角，再敲两个空格也可以。</p>
+<h3 id="二-居中"><a href="#二-居中" class="headerlink" title="二. 居中"></a>二. 居中</h3><p>　　文字居中显示，md中好像没有居中的语法，但是也可以首行缩进一样，借助html的语法，一开始使用的是 <code>&lt;center&gt;&lt;/center&gt;</code>,但是该标签已经废弃，需要使用css。因为我要实现的样式很简单，不想单独写css,于是我使用 <code>&lt;div align=&quot;center&quot; style=&quot;font-size:25px&quot;&gt;文字展示&lt;/div&gt;</code>，这样可以实现文字居中并能够设置字体的大小。</p>
+<h3 id="参考资料："><a href="#参考资料：" class="headerlink" title="参考资料："></a>参考资料：</h3><ul>
+<li><a href="http://blog.csdn.net/mountzf/article/details/51714763" target="_blank" rel="external">markdown中实现首行缩进的两种方法</a></li>
+<li><a href="http://blog.csdn.net/witnessai1/article/details/52551362" target="_blank" rel="external">Markdown 语法手册 （完整整理版）</a></li>
+</ul>
+  
+	</div>
+		<footer class="article-footer clearfix">
+<div class="article-catetags">
+
+
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/markdown/">markdown</a>
+  </div>
+
+</div>
+
+
+
+	<div class="article-share" id="share">
+	
+	  <div data-url="http://yangyl.top/2017/11/16/markdown-learn(1)/" data-title="markdown学习一 | 幻境博客" data-tsina="" class="share clearfix">
+	  </div>
+	
+	</div>
+
+
+</footer>
+
+   	       
+	</article>
+	
+<nav class="article-nav clearfix">
+ 
+ <div class="prev" >
+ <a href="/2017/11/17/proactive-push/" title="主动推送百度搜索">
+  <strong>上一篇：</strong><br/>
+  <span>
+  主动推送百度搜索</span>
+</a>
+</div>
+
+
+<div class="next">
+<a href="/2017/11/14/hexo-environment/"  title="hexo 环境配置">
+ <strong>下一篇：</strong><br/> 
+ <span>hexo 环境配置
+</span>
+</a>
+</div>
+
+</nav>
+
+	
+
+
+
+
+
+<div id="my_comment"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        owner: 'yangyanglei',
+        repo: 'comment',
+        oauth: {
+            client_id: '52f1002777a2a9932fd5',
+            client_secret: '743a0b29d64d1134644c39fd3033f7b9d40d7751',
+        },
+    })
+    gitment.render('my_comment')
+</script>
+
+
+</div>  
+      <div class="openaside"><a class="navbutton" href="#" title="显示侧边栏"></a></div>
+
+  <div id="toc" class="toc-aside">
+  <strong class="toc-title">文章目录</strong>
+ 
+ <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#前言"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#一-首行缩进"><span class="toc-number">2.</span> <span class="toc-text">一. 首行缩进</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#二-居中"><span class="toc-number">3.</span> <span class="toc-text">二. 居中</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#参考资料："><span class="toc-number">4.</span> <span class="toc-text">参考资料：</span></a></li></ol>
+ 
+  </div>
+
+<div id="asidepart">
+<div class="closeaside"><a class="closebutton" href="#" title="隐藏侧边栏"></a></div>
+<aside class="clearfix">
+
+  
+
+
+  
+
+  
+<div class="tagslist">
+	<p class="asidetitle">标签</p>
+		<ul class="clearfix">
+		
+			
+				<li><a href="/tags/爬虫/" title="爬虫">爬虫<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/hexo/" title="hexo">hexo<sup>2</sup></a></li>
+			
+		
+			
+				<li><a href="/tags/markdown/" title="markdown">markdown<sup>1</sup></a></li>
+			
+		
+		</ul>
+</div>
+
+
+  <div class="linkslist">
+  <p class="asidetitle">友情链接</p>
+    <ul>
+        
+          <li>
+            
+            	<a href="http://www.hollischuang.com" target="_blank" title="HollisChuang&#39;s Blog">HollisChuang&#39;s Blog</a>
+            
+          </li>
+        
+          <li>
+            
+            	<a href="http://wuchong.me" target="_blank" title="Jark&#39;s Blog">Jark&#39;s Blog</a>
+            
+          </li>
+        
+    </ul>
+</div>
+
+  
+
+
+  <div class="rsspart">
+	<a href="/atom.xml" target="_blank" title="rss">RSS 订阅</a>
+</div>
+
+  <div class="weiboshow">
+  <!--<p class="asidetitle">新浪微博</p>
+    <iframe width="100%" height="119" class="share_self"  frameborder="0" scrolling="no" src="https://widget.weibo.com/weiboshow/index.php?language=&width=0&height=119&fansRow=2&ptype=1&speed=0&skin=9&isTitle=1&noborder=1&isWeibo=0&isFans=0&uid=&verifier=&dpc=1"></iframe>-->
+</div>
+<p>Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></p>
+
+</aside>
+</div>
+    </div>
+    <footer><div id="footer" >
+	
+	<div class="line">
+		<span></span>
+		<div class="author"></div>
+	</div>
+	
+	
+	<section class="info">
+		<p> 程序人生 <br/>
+			This is my blog,believe it or not.</p>
+	</section>
+	 
+	<div class="social-font" class="clearfix">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<a href="mailto:492452881@qq.com" target="_blank" class="icon-email" title="Email Me"></a>
+		
+	</div>
+			
+		
+
+		<p class="copyright">
+		Powered by <a href="http://hexo.io" target="_blank" title="hexo">hexo</a> and Theme by <a href="https://github.com/wuchong/jacman" target="_blank" title="Jacman">Jacman</a> © 2017 
+		
+		<a href="/about" target="_blank" title="yangyang lei">yangyang lei</a>
+		
+		
+		</p>
+</div>
+</footer>
+    <script src="/js/jquery-2.0.3.min.js"></script>
+<script src="/js/jquery.imagesloaded.min.js"></script>
+<script src="/js/gallery.js"></script>
+<script src="/js/jquery.qrcode-0.12.0.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.navbar').click(function(){
+    $('header nav').toggleClass('shownav');
+  });
+  var myWidth = 0;
+  function getSize(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+  };
+  var m = $('#main'),
+      a = $('#asidepart'),
+      c = $('.closeaside'),
+      o = $('.openaside');
+  c.click(function(){
+    a.addClass('fadeOut').css('display', 'none');
+    o.css('display', 'block').addClass('fadeIn');
+    $('#toc.toc-aside').css('display', 'block').addClass('fadeIn');
+    m.addClass('moveMain');
+  });
+  o.click(function(){
+    o.css('display', 'none').removeClass('beforeFadeIn');
+    a.css('display', 'block').removeClass('fadeOut').addClass('fadeIn');      
+    m.removeClass('moveMain');
+  });
+  $(window).scroll(function(){
+    o.css("top",Math.max(80,260-$(this).scrollTop()));
+  });
+  
+        getSize();
+        if (myWidth >= 1024) {
+          c.click();
+        }
+  
+  $(window).resize(function(){
+    getSize(); 
+    if (myWidth >= 1024) {
+      $('header nav').removeClass('shownav');
+    }else{
+      m.removeClass('moveMain');
+      a.css('display', 'block').removeClass('fadeOut');
+      o.css('display', 'none');
+      
+      $('#toc.toc-aside').css('display', 'none');
+        
+    }
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var ai = $('.article-content>iframe'),
+      ae = $('.article-content>embed'),
+      t  = $('#toc'),
+      ta = $('#toc.toc-aside'),
+      o  = $('.openaside'),
+      c  = $('.closeaside');
+  if(ai.length>0){
+    ai.wrap('<div class="video-container" />');
+  };
+  if(ae.length>0){
+   ae.wrap('<div class="video-container" />');
+  };
+  c.click(function(){
+    ta.css('display', 'block').addClass('fadeIn');
+  });
+  o.click(function(){
+    ta.css('display', 'none');
+  });
+  $(window).scroll(function(){
+    ta.css("top",Math.max(140,320-$(this).scrollTop()));
+  });
+});
+</script>
+
+
+<script type="text/javascript">
+$(document).ready(function(){ 
+  var $this = $('.share'),
+      url = $this.attr('data-url'),
+      encodedUrl = encodeURIComponent(url),
+      title = $this.attr('data-title'),
+      tsina = $this.attr('data-tsina'),
+      description = $this.attr('description');
+  var html = [
+  '<div class="hoverqrcode clearfix"></div>',
+  '<a class="overlay" id="qrcode"></a>',
+  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
+  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
+  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
+  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
+  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
+  '<span title="Share to"></span>'
+  ].join('');
+  $this.append(html);
+
+  $('.hoverqrcode').hide();
+
+  var myWidth = 0;
+  function updatehoverqrcode(){
+    if( typeof( window.innerWidth ) == 'number' ) {
+      myWidth = window.innerWidth;
+    } else if( document.documentElement && document.documentElement.clientWidth) {
+      myWidth = document.documentElement.clientWidth;
+    };
+    var qrsize = myWidth > 1024 ? 200:100;
+    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
+    var p = $('.article-share-qrcode').position();
+    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
+                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
+                          .qrcode(options);
+  };
+  $(window).resize(function(){
+    $('.hoverqrcode').hide();
+  });
+  $('.article-share-qrcode').click(function(){
+    updatehoverqrcode();
+    $('.hoverqrcode').toggle();
+  });
+  $('.article-share-qrcode').hover(function(){}, function(){
+      $('.hoverqrcode').hide();
+  });
+});   
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){ 
+  $('.article-content').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox')) return;
+      var alt = this.alt;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'article' + i);
+    });
+  });
+  if($.fancybox){
+    $('.fancybox').fancybox();
+  }
+}); 
+</script>
+
+
+<script>
+    (function(){
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        }
+        else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+
+<!-- Analytics Begin -->
+
+
+
+
+
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1269886013'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1269886013%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+
+<!-- Analytics End -->
+
+<!-- Totop Begin -->
+
+	<div id="totop">
+	<a title="返回顶部"><img src="/img/scrollup.png"/></a>
+	</div>
+	<script src="/js/totop.js"></script>
+
+<!-- Totop End -->
+
+<!-- MathJax Begin -->
+<!-- mathjax config similar to math.stackexchange -->
+
+
+<!-- MathJax End -->
+
+<!-- Tiny_search Begin -->
+
+<!-- Tiny_search End -->
+
+  </body>
+</html>
