@@ -88,12 +88,12 @@
 <meta property="og:site_name" content="幻境博客">
 <meta property="og:description" content="本人程序员一枚喜欢看动漫和小说，也喜欢研究技术">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:image" content="https://i.imgur.com/hrOc1sg.png">
-<meta property="og:updated_time" content="2017-11-16T01:23:30.658Z">
+<meta property="og:image" content="http://yangyl.top/images/author.png">
+<meta property="og:updated_time" content="2017-11-23T03:15:30.992Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="about">
 <meta name="twitter:description" content="本人程序员一枚喜欢看动漫和小说，也喜欢研究技术">
-<meta name="twitter:image" content="https://i.imgur.com/hrOc1sg.png">
+<meta name="twitter:image" content="http://yangyl.top/images/author.png">
 
 
 
@@ -305,7 +305,7 @@
       <div class="post-body">
         
         
-          <div align="center"><img src="https://i.imgur.com/hrOc1sg.png" alt=""></div><br><div align="center" style="font-size:25px">本人程序员一枚</div><br><div align="center" style="font-size:25px">喜欢看动漫和小说，也喜欢研究技术</div>
+          <div align="center"><img src="/images/author.png" alt=""></div><br><div align="center" style="font-size:25px">本人程序员一枚</div><br><div align="center" style="font-size:25px">喜欢看动漫和小说，也喜欢研究技术</div>
 
 
         
@@ -325,6 +325,8 @@
 
 
           
+  
+      <div id="my_comment"></div>
   
 
 
@@ -353,7 +355,7 @@
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
               <img class="site-author-image" itemprop="image"
-                src="/images/author.jpg"
+                src="/images/author.png"
                 alt="yangyang lei" />
             
               <p class="site-author-name" itemprop="name">yangyang lei</p>
@@ -615,6 +617,23 @@
 
 
 
+
+
+
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+ <script>
+     var gitment = new Gitment({
+         id: 'location.pathname',
+         owner: 'yangyanglei',
+         repo: 'comment',
+         oauth: {
+             client_id: '52f1002777a2a9932fd5',
+             client_secret: '743a0b29d64d1134644c39fd3033f7b9d40d7751',
+         },
+     })
+     gitment.render('my_comment')
+ </script>
 
 
 
@@ -944,6 +963,21 @@
   
 
   
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
 
   
 
