@@ -4,8 +4,29 @@
 
     
   <url>
+    <loc>http://yangyl.top/2017/11/29/auto_eploy_blog_to_server/</loc>
+    <lastmod>2017-11-30T01:05:19.316Z</lastmod>
+    <data>
+        <display>
+        <title>自动部署博客到服务器</title>
+        <pubTime>2017-11-29T09:39:44.000Z</pubTime>
+        
+        <tag>git</tag>
+         
+        <tag>hexo</tag>
+         
+        <tag>linux</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://yangyl.top/2017/11/29/git_server_build/</loc>
-    <lastmod>2017-11-29T09:36:53.039Z</lastmod>
+    <lastmod>2017-11-30T00:46:18.806Z</lastmod>
     <data>
         <display>
         <title>git服务器搭建</title>
